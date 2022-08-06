@@ -5,6 +5,18 @@ body {
     background-repeat: repeat-x;
 }
 
+.header_back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkolivegreen;
