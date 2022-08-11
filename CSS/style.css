@@ -1,20 +1,42 @@
 body {
+    margin: 0;
+    padding: 0;
     background-image: url(../img/bgrnd.png);
+    /* повтор картинки, положение*/
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: repeat-x;
 }
 
-.header_back {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/*Шапка*/
+.page-header {
+    position: relative;
+    z-index: 10;
+    min-height: 70px;
+    padding-top: 40px;
+    padding-bottom: 0%;
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-color: rgb(255, 208, 0);
 }
 
-.logo_header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.main-menu ul {
+    margin: 0;
+    margin-left: 100px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    justify-content: space-between;
+    /* margin-right: 200px; */
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
 }
 
 h1 {
